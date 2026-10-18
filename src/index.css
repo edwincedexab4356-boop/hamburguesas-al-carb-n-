@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+    --color-flame: #FF6B00;
+    --color-amber: #FFA000;
+    --color-charcoal: #0E0E0E;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #0E0E0E;
+    color: #F8F6F0;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom fire-charcoal scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #121212;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a201c;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FF6B00;
+}
+
+/* Fire & Ember glow effects */
+.flame-glow {
+  box-shadow: 0 0 35px -6px rgba(255, 107, 0, 0.35);
+}
+
+.flame-glow-sm {
+  box-shadow: 0 0 15px -3px rgba(255, 107, 0, 0.25);
+}
+
+.flame-border {
+  border-color: rgba(255, 107, 0, 0.3);
+}
+
+.flame-gradient {
+  background: linear-gradient(135deg, #FFA000 0%, #FF6B00 60%, #E65100 100%);
+}
+
+.flame-gradient-text {
+  background: linear-gradient(135deg, #FFB800 0%, #FF6B00 50%, #FF3D00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
