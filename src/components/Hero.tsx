@@ -14,7 +14,7 @@ export const Hero: React.FC = () => {
       {/* Background Photography with Scrim */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_charcoal_burger_1792359111053.jpg"
+          src="/images/hero_charcoal_burger.jpg"
           alt="Hamburguesa de autor sellada al carbón de leña ardiente"
           className="w-full h-full object-cover object-center scale-105 transition-transform duration-1000 ease-out"
           referrerPolicy="no-referrer"

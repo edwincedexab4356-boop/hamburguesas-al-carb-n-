@@ -8,7 +8,7 @@ export const MENU_PRODUCTS: Product[] = [
     price: 13.50,
     badge: 'Firma de la Casa',
     isFeatured: true,
-    image: '/src/assets/images/chori_burger_artisan_1792359112002.jpg',
+    image: '/images/chori_burger_artisan_1792359112002.jpg',
     description:
       'Medallón de carne madurada sellado a la brasa, rodajas doradas de chorizo artesanal parrillero, cascada de queso cheddar y raclette fundido, pepinillos encurtidos al eneldo y rúcula fresca en pan brioche tostado.',
     customization: {
@@ -42,7 +42,7 @@ export const MENU_PRODUCTS: Product[] = [
     price: 14.25,
     badge: 'Creación Especial',
     isFeatured: true,
-    image: '/src/assets/images/pineapple_bourbon_burger_1792359112697.jpg',
+    image: '/images/pineapple_bourbon_burger_1792359112697.jpg',
     description:
       'Pan negro horneado con carbón vegetal, carne sellada a fuego vivo, rodaja gruesa de piña caramelizada al grill, queso provolone fundente, panceta crocante y reducción caliente de miel pura con bourbon ahumado.',
     customization: {
@@ -72,7 +72,7 @@ export const MENU_PRODUCTS: Product[] = [
     price: 16.50,
     badge: 'Edición Gourmet',
     isFeatured: true,
-    image: '/src/assets/images/double_reserve_burger_1792359113247.jpg',
+    image: '/images/double_reserve_burger_1792359113247.jpg',
     description:
       'Doble medallón de 160g de Black Angus madurado 30 días, cascada irresistible de queso raclette alpino y cheddar madurado, tiras crocantes de tocino ahumado en manzano, finos aros de cebolla morada y salsa de la casa.',
     customization: {
@@ -101,7 +101,7 @@ export const MENU_PRODUCTS: Product[] = [
     price: 18.00,
     badge: 'Fine Dining Signature',
     isFeatured: true,
-    image: '/src/assets/images/hero_charcoal_burger_1792359111053.jpg',
+    image: '/images/hero_charcoal_burger_1792359111053.jpg',
     description:
       'Corte de Wagyu seleccionado a la parrilla de carbón, queso brie de Meaux fundido con virutas de trufa negra fresca, cebollas estofadas en oporto y emulsión cremosa de tuétano y ajo asado.',
     customization: {
@@ -127,7 +127,7 @@ export const MENU_PRODUCTS: Product[] = [
     category: 'cortes',
     price: 42.00,
     badge: 'Corte de Autor',
-    image: '/src/assets/images/prime_tomahawk_steak_1792359202293.jpg',
+    image: '/images/prime_tomahawk_steak_1792359202293.jpg',
     description:
       'Corte Prime con hueso largo sellado a 400°C sobre brasas de quebracho blanco. Acompañado de mantequilla clarificada con hierbas de montaña, flor de sal marina y chimichurri rústico de la casa.',
     customization: {
@@ -141,7 +141,7 @@ export const MENU_PRODUCTS: Product[] = [
     category: 'guarniciones',
     price: 7.50,
     badge: 'Acompañamiento Estrella',
-    image: '/src/assets/images/truffle_fries_gourmet_1792359202215.jpg',
+    image: '/images/truffle_fries_gourmet_1792359202215.jpg',
     description:
       'Papas andinas seleccionadas con doble cocción para máxima crocancia exterior y corazón suave, bañadas en aceite de trufa blanca de Alba, nieve de Parmesano Reggiano 24 meses y perejil fresco. Incluye aioli casero de ajo asado.',
     customization: {
@@ -157,7 +157,7 @@ export const MENU_PRODUCTS: Product[] = [
     category: 'cocteleria',
     price: 11.50,
     badge: 'Mixología de Autor',
-    image: '/src/assets/images/smoked_craft_cocktail_1792359202327.jpg',
+    image: '/images/smoked_craft_cocktail_1792359202327.jpg',
     description:
       'Bourbon añejado en barrica de roble blanco, licor artesanal de café especiado, bitter de naranja y clavo, presentado bajo campana de cristal ahumada al momento con astillas de leña de manzano.',
     customization: {
@@ -171,7 +171,7 @@ export const MENU_PRODUCTS: Product[] = [
     name: 'Provoleta Asada en Hierro Fundido',
     category: 'entradas',
     price: 9.50,
-    image: '/src/assets/images/chori_burger_artisan_1792359112002.jpg',
+    image: '/images/chori_burger_artisan_1792359112002.jpg',
     description:
       'Queso provolone fundido en sartén de hierro sobre carbón, tomates cherry confitados al romero, orégano silvestre y pan de masa madre a la brasa con aceite de oliva extra virgen.',
     customization: {
@@ -185,7 +185,7 @@ export const MENU_PRODUCTS: Product[] = [
     name: 'Tentáculo de Pulpo al Carbón con Puré Rústico',
     category: 'mar',
     price: 19.50,
-    image: '/src/assets/images/hero_charcoal_burger_1792359111053.jpg',
+    image: '/images/hero_charcoal_burger_1792359111053.jpg',
     description:
       'Pulpo tierno sellado a las brasas de quebracho con pimentón de la Vera ahumado, emulsión de limón amarillo y puré rústico de papa andina aromatizado con aceite de oliva.',
   },
@@ -194,7 +194,7 @@ export const MENU_PRODUCTS: Product[] = [
     name: 'Volcán Fundente de Cacao Ecuatoriano 70%',
     category: 'postres',
     price: 8.50,
-    image: '/src/assets/images/luxury_restaurant_interior_1792359113643.jpg',
+    image: '/images/luxury_restaurant_interior_1792359113643.jpg',
     description:
       'Bizcocho tibio de chocolate fino de aroma con corazón líquido fundente, acompañado de quenelle de helado artesanal de vainilla Bourbon de Madagascar y crumble de avellanas tostadas.',
   }

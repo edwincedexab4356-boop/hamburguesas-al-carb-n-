@@ -51,7 +51,13 @@ export const Navbar: React.FC = () => {
                   src={RESTAURANT_CONFIG.logoPath}
                   alt={RESTAURANT_CONFIG.name}
                   className="relative h-11 w-11 sm:h-13 sm:w-13 rounded-full object-cover border-2 border-[#FF7A00] shadow-lg shadow-[#FF6B00]/30 transition-transform duration-300 group-hover:scale-105"
-                  onError={() => setLogoLoadFailed(true)}
+                  onError={(e) => {
+                    if (!e.currentTarget.src.includes('2780a4b9')) {
+                      e.currentTarget.src = '/images/2780a4b9-05c4-4f31-899a-3dae7d49913e.jfif';
+                    } else {
+                      setLogoLoadFailed(true);
+                    }
+                  }}
                 />
               ) : (
                 <div className="relative h-11 w-11 sm:h-12 sm:w-12 rounded-full bg-[#1A120E] border-2 border-[#FF7A00] flex items-center justify-center text-[#FF7A00]">

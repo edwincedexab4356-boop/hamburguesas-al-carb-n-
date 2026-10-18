@@ -36,5 +36,5 @@ export const RESTAURANT_CONFIG: RestaurantConfig = {
   instagramUrl: "https://instagram.com",
   facebookUrl: "https://facebook.com",
   tiktokUrl: "https://tiktok.com",
-  logoPath: "/images/2780a4b9-05c4-4f31-899a-3dae7d49913e.jfif",
+  logoPath: "/images/logo.png",
 };

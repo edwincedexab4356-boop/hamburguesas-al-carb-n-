@@ -12,32 +12,32 @@ export const GallerySection: React.FC = () => {
 
   const images: GalleryItem[] = [
     {
-      src: '/src/assets/images/chori_burger_artisan_1792359112002.jpg',
+      src: '/images/chori_burger_artisan_1792359112002.jpg',
       title: 'Chori Burger al Carbón con Queso Fundente',
       category: 'Hamburguesas de Autor',
     },
     {
-      src: '/src/assets/images/pineapple_bourbon_burger_1792359112697.jpg',
+      src: '/images/pineapple_bourbon_burger_1792359112697.jpg',
       title: 'Glaseado de Miel & Piña a la Brasa',
       category: 'Especialidades al Fuego',
     },
     {
-      src: '/src/assets/images/double_reserve_burger_1792359113247.jpg',
+      src: '/images/double_reserve_burger_1792359113247.jpg',
       title: 'Doble Black Angus con Raclette Fundido',
       category: 'Cortes Seleccionados',
     },
     {
-      src: '/src/assets/images/prime_tomahawk_steak_1792359202293.jpg',
+      src: '/images/prime_tomahawk_steak_1792359202293.jpg',
       title: 'Tomahawk Prime a 400°C sobre Brasas',
       category: 'Cortes a las Brasas',
     },
     {
-      src: '/src/assets/images/luxury_restaurant_interior_1792359113643.jpg',
+      src: '/images/luxury_restaurant_interior_1792359113643.jpg',
       title: 'Salón Principal y Cocina de Fuego Abierto',
       category: 'Ambiente Fine Dining',
     },
     {
-      src: '/src/assets/images/smoked_craft_cocktail_1792359202327.jpg',
+      src: '/images/smoked_craft_cocktail_1792359202327.jpg',
       title: 'Cóctel Ahumado con Esencia de Roble y Bourbon',
       category: 'Mixología Botánica',
     },

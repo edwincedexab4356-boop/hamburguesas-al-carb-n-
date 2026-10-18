@@ -27,7 +27,7 @@ export const OurEssence: React.FC = () => {
           <div className="lg:col-span-7 relative">
             <div className="relative rounded-xl overflow-hidden border border-[#2E2018] shadow-2xl group">
               <img
-                src="/src/assets/images/luxury_restaurant_interior_1792359113643.jpg"
+                src="/images/luxury_restaurant_interior.jpg"
                 alt="Ambiente sofisticado de cocina abierta y parrilla al carbón"
                 className="w-full h-[400px] sm:h-[500px] object-cover object-center group-hover:scale-102 transition-transform duration-700 ease-out"
                 referrerPolicy="no-referrer"
